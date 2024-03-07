@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "apprentissage",
+	"version": "${version}",
+	"name": "apprentissage",
+	"description": "This is the mod used by Beluga Curieux for learn moding.",
+	"authors": [
+		"Beluga Curieux !"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/apprentissage/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.beluga_curieux.apprentissage.Apprentissage"
+		],
+		"fabric-datagen": [
+			"fr.beluga_curieux.apprentissage.ApprentissageDataGenerator"
+		]
+	},
+	"mixins": [
+		"apprentissage.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
