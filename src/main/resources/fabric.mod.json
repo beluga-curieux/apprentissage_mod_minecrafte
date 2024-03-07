@@ -18,6 +18,9 @@
 		"main": [
 			"fr.beluga_curieux.apprentissage.Apprentissage"
 		],
+		"client": [
+			"fr.beluga_curieux.apprentissage.ApprentissageClient"
+		],
 		"fabric-datagen": [
 			"fr.beluga_curieux.apprentissage.ApprentissageDataGenerator"
 		]
