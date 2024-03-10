@@ -15,6 +15,9 @@ public class ModBlocks {
 
     public static final Block TRUC_BLOCK = registerBlock("truc_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block RAW_TRUC_BLOCK = registerBlock("raw_truc_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Apprentissage.MOD_ID, name), block);

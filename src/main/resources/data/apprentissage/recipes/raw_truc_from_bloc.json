@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "apprentissage:raw_truc_block"
+    }
+  ],
+  "result": {
+    "item": "apprentissage:raw_truc",
+    "count": 9
+  }
+}

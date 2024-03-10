@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "truc_ingot",
+  "ingredient": {
+    "item": "apprentissage:raw_truc"
+  },
+  "result": "apprentissage:truc_ingot"
+}

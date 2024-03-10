@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "apprentissage:truc_ingot"
+    }
+  },
+  "result": {
+    "item": "apprentissage:truc_block"
+  }
+}

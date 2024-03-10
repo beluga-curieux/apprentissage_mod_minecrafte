@@ -16,6 +16,12 @@ public class ModItemGroups {
             new Identifier(Apprentissage.MOD_ID, "group"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.group"))
                     .icon(() -> new ItemStack(ModItems.TRUC_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TRUC_INGOT);
+                        entries.add(ModItems.RAW_TRUC);
+
+
+                        entries.add(ModBlocks.TRUC_BLOCK);
+                        entries.add(ModBlocks.RAW_TRUC_BLOCK);
+
 
 
                     }).build());

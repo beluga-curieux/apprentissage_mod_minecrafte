@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item TRUC_INGOT = registerItem("truc_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_TRUC = registerItem("raw_truc", new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

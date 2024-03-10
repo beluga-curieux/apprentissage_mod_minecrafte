@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "apprentissage:block/raw_truc_block"
+  }
+}

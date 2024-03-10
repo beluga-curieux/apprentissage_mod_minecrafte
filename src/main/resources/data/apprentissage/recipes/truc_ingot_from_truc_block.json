@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "apprentissage:truc_block"
+    }
+  ],
+  "result": {
+    "item": "apprentissage:truc_ingot",
+    "count": 9
+  }
+}

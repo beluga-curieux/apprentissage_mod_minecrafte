@@ -1,8 +1,11 @@
 {
   "item.apprentissage.truc_ingot": "truc ingot",
+  "item.apprentissage.raw_truc": "raw truc",
 
-  "itemgroup.group": "le mode",
+  "block.apprentissage.truc_block": "truc block",
+  "block.apprentissage.raw_truc_block": "raw truc block",
 
-  "block.apprentissage.truc_block": "truc block"
+  "itemgroup.group": "le mode"
+
 
 }

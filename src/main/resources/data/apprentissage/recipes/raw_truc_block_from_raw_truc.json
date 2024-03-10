@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "apprentissage:raw_truc"
+    }
+  },
+  "result": {
+    "item": "apprentissage:raw_truc_block"
+  }
+}
