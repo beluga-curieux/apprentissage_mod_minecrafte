@@ -2,6 +2,7 @@ package fr.beluga_curieux.apprentissage.item;
 
 import fr.beluga_curieux.apprentissage.Apprentissage;
 import fr.beluga_curieux.apprentissage.block.ModBlocks;
+import fr.beluga_curieux.apprentissage.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,6 +15,9 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item TRUC_INGOT = registerItem("truc_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_TRUC = registerItem("raw_truc", new Item(new FabricItemSettings()));
+
+    public static final Item METAL_DETECTOR_ITEM = registerItem("metal_detector_item",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(100)));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
